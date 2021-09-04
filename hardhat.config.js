@@ -10,7 +10,8 @@ module.exports = {
    networks: {
       mainnet: {
          url: API_URL,
-         accounts: [`0x${PRIVATE_KEY}`]
+         accounts: [`0x${PRIVATE_KEY}`],
+         gasPrice: 300000000000
       },
       // ropsten: {
       //    url: API_URL,

@@ -14,6 +14,7 @@ contract TaschasDestroyedDiamond is ERC721URIStorage, Ownable {
 
     constructor() public ERC721("TaschasDestroyedDiamond", "TDD") {}
 
+
     function mintNFT(address recipient, string memory tokenURI)
         public onlyOwner
         returns (uint256)
