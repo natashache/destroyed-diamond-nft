@@ -1,9 +1,9 @@
 async function main() {
-  const DestroyedDiamondNFT = await ethers.getContractFactory("DestroyedDiamondNFT")
+  const TaschasDestroyedDiamond = await ethers.getContractFactory("TaschasDestroyedDiamond")
 
   // Start deployment, returning a promise that resolves to a contract object
-  const destroyedDiamondNFT = await DestroyedDiamondNFT.deploy()
-  console.log("Contract deployed to address:", destroyedDiamondNFT.address)
+  const taschasDestroyedDiamond = await TaschasDestroyedDiamond.deploy()
+  console.log("Contract deployed to address:", taschasDestroyedDiamond.address)
 }
 
 main()

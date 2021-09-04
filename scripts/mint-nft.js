@@ -6,7 +6,7 @@ const PRIVATE_KEY = process.env.PRIVATE_KEY;
 const { createAlchemyWeb3 } = require("@alch/alchemy-web3")
 const web3 = createAlchemyWeb3(API_URL)
 
-const contract = require("../artifacts/contracts/DiamondNFT.sol/DestroyedDiamondNFT.json")
+const contract = require("../artifacts/contracts/DiamondNFT.sol/TaschasDestroyedDiamond.json")
 const contractAddress = "0x8C144EcC1CC067f024923776ac4FB6d873Dc171B";
 const nftContract = new web3.eth.Contract(contract.abi, contractAddress);
 
