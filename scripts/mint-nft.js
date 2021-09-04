@@ -7,7 +7,7 @@ const { createAlchemyWeb3 } = require("@alch/alchemy-web3")
 const web3 = createAlchemyWeb3(API_URL)
 
 const contract = require("../artifacts/contracts/DiamondNFT.sol/TaschasDestroyedDiamond.json")
-const contractAddress = "0x8C144EcC1CC067f024923776ac4FB6d873Dc171B";
+const contractAddress = "0x2A9E4045185C8d778B85610CA96D79bd8ECdc720";
 const nftContract = new web3.eth.Contract(contract.abi, contractAddress);
 
 async function mintNFT(tokenURI) {
