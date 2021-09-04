@@ -1,4 +1,4 @@
-# Tascha's Deployed Diamond NFT
+# Tascha's Destroyed Diamond NFT
 
 The world's first destroyed diamond NFT.
 
