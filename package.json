@@ -10,6 +10,7 @@
   "license": "ISC",
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-etherscan": "^2.1.6",
     "ethers": "^5.4.6",
     "hardhat": "^2.6.2"
   },
